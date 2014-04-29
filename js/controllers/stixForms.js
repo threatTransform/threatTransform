@@ -228,6 +228,7 @@ function ttFormCntrl($scope, $http, $compile, $filter) {
             "<stix:STIX_Package" +
             "    xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"" +
             "    xmlns:stix=\"http://stix.mitre.org/stix-1\"" +
+            "    xmlns:{{branding}}=\"{{brandingNamespace}}\"" +
             "    id=\"{{branding}}:STIXPackage-{{UUID}}\"";
 
 
@@ -239,6 +240,7 @@ function ttFormCntrl($scope, $http, $compile, $filter) {
 
     $scope.creationTimestamp = Date.now();
     $scope.branding = "ttDemo";
+    $scope.brandingNamespace = "ttDemo";
 
 
     // ADDERS
@@ -317,6 +319,7 @@ function ttFormCntrl($scope, $http, $compile, $filter) {
                 'xmlns:stixVocabs="http://stix.mitre.org/default_vocabularies-1"' + '\n' +
                 'xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2"' + '\n' +
                 'xmlns:ttp="http://stix.mitre.org/TTP-1"' + '\n' +
+                'xmlns:ttDemo="ttDemo"' + '\n' + 
                 'xsi:schemaLocation="' + '\n' +
                 '\thttp://stix.mitre.org/stix-1 ../stix_core.xsd' + '\n' +
                 '\thttp://stix.mitre.org/Indicator-2 ../indicator.xsd' + '\n' +
