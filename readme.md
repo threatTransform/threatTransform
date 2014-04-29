@@ -1,1 +1,2 @@
-More information coming soon.
+
+threatTRANSFORM was created to address issues that many security professionals face in sharing and analyzing threat information. Since STIX is rapidly evolving, threatTRANSFORM needs to quickly change and improve too. Please consider improving it and sharing with the community. There are still many STIX types that need to be modelled, and forms that need to be created. Please check out the documentation here: https://www.threattransform.com/documentation.html.
