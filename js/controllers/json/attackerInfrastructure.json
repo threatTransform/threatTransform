@@ -1,0 +1,50 @@
+[{
+        "value": "Anonymization"
+    }, {
+        "value": "Anonymization - Proxy"
+    }, {
+        "value": "Anonymization - TOR Network"
+    }, {
+        "value": "Anonymization - VPN"
+    }, {
+        "value": "Communications"
+    }, {
+        "value": "Communications - Blogs"
+    }, {
+        "value": "Communications - Forums"
+    }, {
+        "value": "Communications - Internet Relay Chat"
+    }, {
+        "value": "Communications - Micro-Blogs"
+    }, {
+        "value": "Communications - Mobile Communications"
+    }, {
+        "value": "Communications - Social Networks"
+    }, {
+        "value": "Communications - User-Generated Content Websites"
+    }, {
+        "value": "Domain Registration"
+    }, {
+        "value": "Domain Registration - Dynamic DNS Services"
+    }, {
+        "value": "Domain Registration - Legitimate Domain Registration Services"
+    }, {
+        "value": "Domain Registration - Malicious Domain Registrars"
+    }, {
+        "value": "Domain Registration - Top-Level Domain Registrars"
+    }, {
+        "value": "Hosting"
+    }, {
+        "value": "Hosting - Bulletproof / Rogue Hosting"
+    }, {
+        "value": "Hosting - Cloud Hosting"
+    }, {
+        "value": "Hosting - Compromised Server"
+    }, {
+        "value": "Hosting - Fast Flux Botnet Hosting"
+    }, {
+        "value": "Hosting - Legitimate Hosting"
+    }, {
+        "value": "Electronic Payment Methods"
+    }
+]

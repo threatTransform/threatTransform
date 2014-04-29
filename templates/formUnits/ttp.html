@@ -1,0 +1,22 @@
+        <div class="col-md-12">
+            <div class="badger-left" data-badger="Tactics, Techniques and Procedures (TTP)">
+                <span>{{ttpCount()}} TTP's defined in this document</span>
+                <form ng-submit="addTTP()">
+                    <div class="form-group">
+                        <label for ="ttpTitle"> Title</label>
+                        <input type="text" class="form-control" id="ttpTitle" ng-model="ttpObject.ttpTitle">
+                    </div>
+                    <div class="form-group">
+                        <label for ="ttpDescription"> Description </label>
+                        <textarea class="form-control" ng-model="ttpObject.ttpDescription" id="ttpDescription" rows="5"></textarea>
+                    </div>
+                    <div class="row">
+                    <div ng-include="'templates/formUnits/intendedEffects.html'"></div>                                                
+                    <div ng-include="'templates/formUnits/attackPatterns.html'"></div>                                                
+                </div>
+
+                    <input class="btn-primary" type="submit" value="Add TTP">
+                </form>
+            </div>
+            
+        </div>

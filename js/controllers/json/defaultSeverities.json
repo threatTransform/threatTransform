@@ -1,0 +1,27 @@
+[{
+        "value": "High",
+        "annotation": {
+            "documentation": "High Value"
+        }
+    }, {
+        "value": "Medium",
+        "annotation": {
+            "documentation": "Medium Value"
+        }
+    }, {
+        "value": "Low",
+        "annotation": {
+            "documentation": "Low Value"
+        }
+    }, {
+        "value": "None",
+        "annotation": {
+            "documentation": "None"
+        }
+    }, {
+        "value": "Unknown",
+        "annotation": {
+            "documentation": "Unknown"
+        }
+    }
+]

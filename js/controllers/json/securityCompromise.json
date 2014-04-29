@@ -1,0 +1,22 @@
+[{
+        "value": "Yes",
+        "annotation": {
+            "documentation": "It has been confirmed that this incident resulted in a security compromise."
+        }
+    }, {
+        "value": "Suspected",
+        "annotation": {
+            "documentation": "It is suspected that this incident resulted in a security compromise."
+        }
+    }, {
+        "value": "No",
+        "annotation": {
+            "documentation": "It has been confirmed that this incident did not result in a security compromise"
+        }
+    }, {
+        "value": "Unknown",
+        "annotation": {
+            "documentation": "It is not known whether this incident resulted in a security compromise."
+        }
+    }
+]

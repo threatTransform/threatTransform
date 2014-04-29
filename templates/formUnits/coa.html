@@ -1,0 +1,24 @@
+        <div class="col-md-6">
+            <div class="badger-left" data-badger="Courses Of Action">
+                <span>{{coaCount()}} Courses of Action defined in this document</span>
+                <form>
+                    <div class="form-group">
+                        <label for ="coaStage"> Stage </label>
+                        <select ng-model="coaObject.coaStage" ng-options="coaStage.value for coaStage in coaStages | orderBy: 'value'" class="form-control" id="coaStage"></select>
+                    </div>
+                    <div class="form-group">
+                        <label for ="coaType"> Type </label>
+                        <input type="text" class="form-control" id="coaType" ng-model="coaObject.coaType">
+                    <div class="form-group">
+                        <label for ="coaDescription"> Description </label>
+                        <textarea class="form-control" ng-model="coaObject.coaDescription" id="coaDescription" rows="5" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for ="coaObjective"> Objective </label>
+                        <textarea class="form-control" ng-model="coaObject.coaObjective.description" id="coaObjective" rows="5" required></textarea>
+                    </div>
+                    <input class="btn-link" ng-click="addCOA()" value="Add Course of Action">
+                </form>
+            </div>
+        </div>

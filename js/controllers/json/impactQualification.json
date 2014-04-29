@@ -1,0 +1,32 @@
+[{
+"value": "Insignificant",
+        "annotation": {
+        "documentation": "The impact is absorbed by normal activities."
+        }
+}, {
+"value": "Distracting",
+        "annotation": {
+        "documentation": "There are limited \"hard costs\", but the impact is felt through having to deal with the incident rather than conducting normal duties."
+        }
+}, {
+"value": "Painful",
+        "annotation": {
+        "documentation": "Real, somewhat serious effect on the \"bottom line\"."
+        }
+}, {
+"value": "Damaging",
+        "annotation": {
+        "documentation": "Real and serious effect on the \"bottom line\" and/or long-term ability to generate revenue."
+        }
+}, {
+"value": "Catastrophic",
+        "annotation": {
+        "documentation": "A business-ending event."
+        }
+}, {
+"value": "Unknown",
+        "annotation": {
+        "documentation": "The impact qualification is unknown."
+        }
+}
+]

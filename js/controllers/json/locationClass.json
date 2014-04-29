@@ -1,0 +1,27 @@
+[{
+        "value": "Internally-Located",
+        "annotation": {
+            "documentation": "The asset is located internally."
+        }
+    }, {
+        "value": "Externally-Located",
+        "annotation": {
+            "documentation": "The asset is located externally."
+        }
+    }, {
+        "value": "Co-Located",
+        "annotation": {
+            "documentation": "The asset is co-located."
+        }
+    }, {
+        "value": "Mobile",
+        "annotation": {
+            "documentation": "The asset is mobile."
+        }
+    }, {
+        "value": "Unknown",
+        "annotation": {
+            "documentation": "The asset location is unknown."
+        }
+    }
+]

@@ -1,0 +1,30 @@
+[{
+        "value": "Brand or Image Degradation"
+    }, {
+        "value": "Loss of Competitive Advantage"
+    }, {
+        "value": "Loss of Competitive Advantage - Economic"
+    }, {
+        "value": "Loss of Competitive Advantage - Military"
+    }, {
+        "value": "Loss of Competitive Advantage - Political"
+    }, {
+        "value": "Data Breach or Compromise"
+    }, {
+        "value": "Degradation of Service"
+    }, {
+        "value": "Destruction"
+    }, {
+        "value": "Disruption of Service / Operations"
+    }, {
+        "value": "Financial Loss"
+    }, {
+        "value": "Loss of Confidential / Proprietary Information or Intellectual Property"
+    }, {
+        "value": "Regulatory, Compliance or Legal Impact"
+    }, {
+        "value": "Unintended Access"
+    }, {
+        "value": "User Data Loss"
+    }
+]

@@ -1,0 +1,3 @@
+<textarea class="form-control" id="stixXML" rows="25">
+{{$parent.generateBody()}}
+</textarea>

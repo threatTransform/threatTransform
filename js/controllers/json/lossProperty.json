@@ -1,0 +1,12 @@
+[{
+        "value": "Confidentiality"
+    }, {
+        "value": "Integrity"
+    }, {
+        "value": "Availability"
+    }, {
+        "value": "Accountability"
+    }, {
+        "value": "Non-Repudiation"
+    }
+]

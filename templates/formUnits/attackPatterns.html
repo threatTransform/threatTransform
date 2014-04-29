@@ -1,0 +1,16 @@
+        <div class="col-md-6">
+            <div class="badger-left" data-badger="Attack Patterns">
+                <span>{{apCount()}} Attack Patterns defined in this document</span>
+                <form>
+                    <div class="form-group">
+                        <label for ="apDescription"> Description </label>
+                        <textarea class="form-control" ng-model="apObject.apDescription" id="apDescription" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for ="apCapecID"> CAPEC ID </label>
+                        <select ng-model="apObject.apCapecID" ng-options="capecID.value for capecID in capecIDEnum | orderBy: 'value'" class="form-control" id="apCapecID"></select>
+                    </div>
+                    <input class="btn-link" ng-click="addAttackPattern()" value="Add Attack Pattern">
+                </form>
+            </div>
+        </div>

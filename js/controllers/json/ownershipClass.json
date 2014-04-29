@@ -1,0 +1,27 @@
+[{
+        "value": "Internally-Owned",
+        "annotation": {
+            "documentation": "The asset is owned internally."
+        }
+    }, {
+        "value": "Employee-Owned",
+        "annotation": {
+            "documentation": "The asset is owned by an employee."
+        }
+    }, {
+        "value": "Partner-Owned",
+        "annotation": {
+            "documentation": "The asset is owned by a partner."
+        }
+    }, {
+        "value": "Customer-Owned",
+        "annotation": {
+            "documentation": "The asset is owned by a customer."
+        }
+    }, {
+        "value": "Unknown",
+        "annotation": {
+            "documentation": "The asset ownership class is unknown."
+        }
+    }
+]

@@ -1,0 +1,27 @@
+[{
+        "value": "None",
+        "annotation": {
+            "documentation": "There was no impact."
+        }
+    }, {
+        "value": "Minor",
+        "annotation": {
+            "documentation": "There was a minor impact."
+        }
+    }, {
+        "value": "Moderate",
+        "annotation": {
+            "documentation": "There was a moderate impact."
+        }
+    }, {
+        "value": "Major",
+        "annotation": {
+            "documentation": "There was a major impact."
+        }
+    }, {
+        "value": "Unknown",
+        "annotation": {
+            "documentation": "The impact is not known."
+        }
+    }
+]

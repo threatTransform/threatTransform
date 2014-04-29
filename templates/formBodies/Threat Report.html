@@ -1,0 +1,21 @@
+      
+
+<div class="panel-body">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label for ="stixTitle"> Title </label>
+                <input type="text" class="form-control" id="stixTitle" ng-model="$parent.stixPackageTitle">
+            </div>
+
+            <div class="form-group">
+                <label for ="stixPackageIntent"> Package Intent </label>
+                <select ng-model="$parent.packageIntent" ng-options="packageIntent.value for packageIntent in packageIntents | orderBy: 'value'" class="form-control" id="stixPackageIntent"></select>
+                <div class="alert alert-info">{{packageIntent.annotation.documentation}}</div>
+                <p class="panel-body">Our team is working to get the Threat Report models into threatTransform. Please considering contributing to the project!</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+

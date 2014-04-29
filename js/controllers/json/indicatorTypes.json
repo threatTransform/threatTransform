@@ -1,0 +1,52 @@
+[{
+        "value": "Malicious E-mail",
+        "annotation": {
+            "documentation": "Indicator describes suspected malicious e-mail (phishing, spear phishing, infected, etc.)."
+        }
+    }, {
+        "value": "IP Watchlist",
+        "annotation": {
+            "documentation": "Indicator describes a set of suspected malicious IP addresses or IP blocks."
+        }
+    }, {
+        "value": "File Hash Watchlist",
+        "annotation": {
+            "documentation": "Indicator describes a set of hashes for suspected malicious files."
+        }
+    }, {
+        "value": "Domain Watchlist",
+        "annotation": {
+            "documentation": "Indicator describes a set of suspected malicious domains."
+        }
+    }, {
+        "value": "URL Watchlist",
+        "annotation": {
+            "documentation": "Indicator describes a set of suspected malicious URLS."
+        }
+    }, {
+        "value": "Malware Artifacts",
+        "annotation": {
+            "documentation": "Indicator describes the effects of suspected malware."
+        }
+    }, {
+        "value": "C2",
+        "annotation": {
+            "documentation": "Indicator describes suspected command and control activity or static indications."
+        }
+    }, {
+        "value": "Anonymization",
+        "annotation": {
+            "documentation": "Indicator describes suspected anonymization techniques (Proxy, TOR, VPN, etc.)."
+        }
+    }, {
+        "value": "Exfiltration",
+        "annotation": {
+            "documentation": "Indicator describes suspected exfiltration techniques or behavior."
+        }
+    }, {
+        "value": "Host Characteristics",
+        "annotation": {
+            "documentation": "Indicator describes suspected malicious host characteristics."
+        }
+    }
+]

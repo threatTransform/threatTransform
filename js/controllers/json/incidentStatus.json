@@ -1,0 +1,47 @@
+[{
+        "value": "New",
+        "annotation": {
+            "documentation": ""
+        }
+    }, {
+        "value": "Open",
+        "annotation": {
+            "documentation": ""
+        }
+    }, {
+        "value": "Stalled",
+        "annotation": {
+            "documentation": ""
+        }
+    }, {
+        "value": "Containment Achieved",
+        "annotation": {
+            "documentation": ""
+        }
+    }, {
+        "value": "Restoration Achieved",
+        "annotation": {
+            "documentation": ""
+        }
+    }, {
+        "value": "Incident Reported",
+        "annotation": {
+            "documentation": ""
+        }
+    }, {
+        "value": "Closed",
+        "annotation": {
+            "documentation": ""
+        }
+    }, {
+        "value": "Rejected",
+        "annotation": {
+            "documentation": ""
+        }
+    }, {
+        "value": "Deleted",
+        "annotation": {
+            "documentation": ""
+        }
+    }
+]

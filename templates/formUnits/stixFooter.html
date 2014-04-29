@@ -1,0 +1,13 @@
+        <div class="col-md-6">
+            <div class="well well-me well-primary">
+                <form class="form form-inline " role="form">
+                    <div class="form-group">
+                        <select ng-model="$parent.documentStatus" ng-options="documentStatus.value for documentStatus in documentStatuses | orderBy: 'value'" class="form-control"></select>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success btn-sm" ng-click="saveToFile()">
+                            <span class="glyphicon glyphicon-floppy-disk"></span>Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>

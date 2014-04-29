@@ -1,0 +1,20 @@
+        <div class="col-md-6">
+            <div class="badger-left" data-badger="Intended Effects">
+                <span>{{ieCount()}} Intended Effects defined in this document</span>
+                <form ng-submit="addIntendedEffect()">
+                    <div class="form-group">
+                        <label for ="ieValue"> Intended Effect </label>
+                        <select ng-model="ieObject.ieValue" ng-options="intendedEffect.value for intendedEffect in intendedEffectsEnum | orderBy: 'value'" class="form-control" id="stixIndicatorType"></select>
+                    </div>
+                    <div class="form-group">
+                        <label for ="ieDescription"> Description </label>
+                        <textarea class="form-control" ng-model="ieObject.ieDescription" id="ieDescription" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for ="ieConfidence"> Confidence </label>
+                        <select ng-model="ieObject.ieConfidence" ng-options="confidence.value for confidence in confidenceEnum | orderBy: 'value'" class="form-control" id="stixIndicatorType"></select>
+                    </div>
+                    <input <input class="btn-link" ng-click="addIntendedEffect()" value="Add Intended Effect">
+                </form>
+            </div>
+        </div>

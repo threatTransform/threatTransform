@@ -1,0 +1,37 @@
+[{
+        "value": "Exercise/Network Defense Testing",
+        "annotation": {
+            "documentation": "This category is used during state, federal, national, international exercises and approved activity testing of internal/external network defenses or responses."
+        }
+    }, {
+        "value": "Unauthorized Access",
+        "annotation": {
+            "documentation": "In this category an individual gains logical or physical access without permission to a federal agency network, system, application, data, or other resource."
+        }
+    }, {
+        "value": "Denial of Service",
+        "annotation": {
+            "documentation": "An attack that successfully prevents or impairs the normal authorized functionality of networks, systems or applications by exhausting resources. This activity includes being the victim or participating in the DoS."
+        }
+    }, {
+        "value": "Malicious Code",
+        "annotation": {
+            "documentation": "Installation of malicious software (e.g., virus, worm, Trojan horse, or other code-based malicious entity) that infects an operating system or application. Agencies are NOT required to report malicious logic that has been successfully quarantined by antivirus (AV) software."
+        }
+    }, {
+        "value": "Improper Usage",
+        "annotation": {
+            "documentation": "A person violates acceptable computing use policies."
+        }
+    }, {
+        "value": "Scans/Probes/Attempted Access",
+        "annotation": {
+            "documentation": "This category includes any activity that seeks to access or identify a federal agency computer, open ports, protocols, service, or any combination for later exploit. This activity does not directly result in a compromise or denial of service."
+        }
+    }, {
+        "value": "Investigation",
+        "annotation": {
+            "documentation": "Unconfirmed incidents that are potentially malicious or anomalous activity deemed by the reporting entity to warrant further review."
+        }
+    }
+]

@@ -1,0 +1,17 @@
+[{
+        "value": "Ongoing",
+        "annotation": {
+            "documentation": "This campaign is currently taking place."
+        }
+    }, {
+        "value": "Historic",
+        "annotation": {
+            "documentation": "This campaign occurred in the past and is currently not taking place."
+        }
+    }, {
+        "value": "Future",
+        "annotation": {
+            "documentation": "This campaign is expected to take place in the future."
+        }
+    }
+]

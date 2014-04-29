@@ -1,0 +1,156 @@
+[{
+        "value": "Backup"
+    }, {
+        "value": "Database"
+    }, {
+        "value": "DHCP"
+    }, {
+        "value": "Directory"
+    }, {
+        "value": "DCS"
+    }, {
+        "value": "DNS"
+    }, {
+        "value": "File"
+    }, {
+        "value": "Log"
+    }, {
+        "value": "Mail"
+    }, {
+        "value": "Mainframe"
+    }, {
+        "value": "Payment switch"
+    }, {
+        "value": "POS controller"
+    }, {
+        "value": "Print"
+    }, {
+        "value": "Proxy"
+    }, {
+        "value": "Remote access"
+    }, {
+        "value": "SCADA"
+    }, {
+        "value": "Web application"
+    }, {
+        "value": "Server"
+    }, {
+        "value": "Access reader"
+    }, {
+        "value": "Camera"
+    }, {
+        "value": "Firewall"
+    }, {
+        "value": "HSM"
+    }, {
+        "value": "IDS"
+    }, {
+        "value": "Broadband"
+    }, {
+        "value": "PBX"
+    }, {
+        "value": "Private WAN"
+    }, {
+        "value": "PLC"
+    }, {
+        "value": "Public WAN"
+    }, {
+        "value": "RTU"
+    }, {
+        "value": "Router or switch"
+    }, {
+        "value": "SAN"
+    }, {
+        "value": "Telephone"
+    }, {
+        "value": "VoIP adapter"
+    }, {
+        "value": "LAN"
+    }, {
+        "value": "WLAN"
+    }, {
+        "value": "Network"
+    }, {
+        "value": "Auth token"
+    }, {
+        "value": "ATM"
+    }, {
+        "value": "Desktop"
+    }, {
+        "value": "PED pad"
+    }, {
+        "value": "Gas terminal"
+    }, {
+        "value": "Laptop"
+    }, {
+        "value": "Media"
+    }, {
+        "value": "Mobile phone"
+    }, {
+        "value": "Peripheral"
+    }, {
+        "value": "POS terminal"
+    }, {
+        "value": "Kiosk"
+    }, {
+        "value": "Tablet"
+    }, {
+        "value": "Telephone"
+    }, {
+        "value": "VoIP phone"
+    }, {
+        "value": "User Device"
+    }, {
+        "value": "Tapes"
+    }, {
+        "value": "Disk media"
+    }, {
+        "value": "Documents"
+    }, {
+        "value": "Flash drive"
+    }, {
+        "value": "Disk drive"
+    }, {
+        "value": "Smart card"
+    }, {
+        "value": "Payment card"
+    }, {
+        "value": "Media"
+    }, {
+        "value": "Administrator"
+    }, {
+        "value": "Auditor"
+    }, {
+        "value": "Call center"
+    }, {
+        "value": "Cashier"
+    }, {
+        "value": "Customer"
+    }, {
+        "value": "Developer"
+    }, {
+        "value": "End-user"
+    }, {
+        "value": "Executive"
+    }, {
+        "value": "Finance"
+    }, {
+        "value": "Former employee"
+    }, {
+        "value": "Guard"
+    }, {
+        "value": "Helpdesk"
+    }, {
+        "value": "Human resources"
+    }, {
+        "value": "Maintenance"
+    }, {
+        "value": "Manager"
+    }, {
+        "value": "Partner"
+    }, {
+        "value": "Person"
+    }, {
+        "value": "Unknown"
+    }
+]

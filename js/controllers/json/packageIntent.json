@@ -1,0 +1,101 @@
+[{
+        "value": "Collective Threat Intelligence",
+        "annotation": {
+            "documentation": "Package is intended to convey a broad characterization of a threat across multiple facets."
+        }
+    }, {
+        "value": "Threat Report",
+        "annotation": {
+            "documentation": "Package is intended to convey a broad characterization of a threat across multiple facets expressed as a cohesive report."
+        }
+    }, {
+        "value": "Indicators",
+        "annotation": {
+            "documentation": "Package is intended to convey mainly indicators."
+        }
+    }, {
+        "value": "Indicators - Phishing",
+        "annotation": {
+            "documentation": "Package is intended to convey mainly phishing indicators."
+        }
+    }, {
+        "value": "Indicators - Watchlist",
+        "annotation": {
+            "documentation": "Package is intended to convey mainly network watchlist indicators."
+        }
+    }, {
+        "value": "Indicators - Malware Artifacts",
+        "annotation": {
+            "documentation": "Package is intended to convey mainly malware artifact indicators."
+        }
+    }, {
+        "value": "Indicators - Network Activity",
+        "annotation": {
+            "documentation": "Package is intended to convey mainly network activity indicators."
+        }
+    }, {
+        "value": "Indicators - Endpoint Characteristics",
+        "annotation": {
+            "documentation": "Package is intended to convey mainly endpoint characteristics (hashes, registry \"value\"s, installed software, known vulnerabilities, etc.) indicators."
+        }
+    }, {
+        "value": "Campaign Characterization",
+        "annotation": {
+            "documentation": "Package is intended to convey mainly a characterization of one or more campaigns."
+        }
+    }, {
+        "value": "Threat Actor Characterization",
+        "annotation": {
+            "documentation": "Package is intended to convey mainly a characterization of one or more threat actors."
+        }
+    }, {
+        "value": "Exploit Characterization",
+        "annotation": {
+            "documentation": "Package is intended to convey mainly a characterization of one or more exploits."
+        }
+    }, {
+        "value": "Attack Pattern Characterization",
+        "annotation": {
+            "documentation": "Package is intended to convey mainly a characterization of one or more attack patterns."
+        }
+    }, {
+        "value": "Malware Characterization",
+        "annotation": {
+            "documentation": "Package is intended to convey mainly a characterization of one or more malware instances."
+        }
+    }, {
+        "value": "TTP - Infrastructure",
+        "annotation": {
+            "documentation": "Package is intended to convey mainly a characterization of attacker infrastructure."
+        }
+    }, {
+        "value": "TTP - Tools",
+        "annotation": {
+            "documentation": "Package is intended to convey mainly a characterization of attacker tools."
+        }
+    }, {
+        "value": "Courses of Action",
+        "annotation": {
+            "documentation": "Package is intended to convey mainly a set of courses of action."
+        }
+    }, {
+        "value": "Incident",
+        "annotation": {
+            "documentation": "Package is intended to convey mainly information about one or more incidents."
+        }
+    }, {
+        "value": "Observations",
+        "annotation": {
+            "documentation": "Package is intended to convey mainly information about instantial observations (cyber observables)."
+        }
+    }, {
+        "value": "Observations - Email",
+        "annotation": {
+            "documentation": "Package is intended to convey mainly information about instantial email observations (email cyber observables)."
+        }
+    }, {
+        "value": "Malware Samples",
+        "annotation": {
+            "documentation": "Package is intended to convey a set of malware samples."
+        }
+    }]

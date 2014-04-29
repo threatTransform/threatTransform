@@ -1,0 +1,12 @@
+[{
+        "value": "Remedy",
+        "annotation": {
+            "documentation": "This COA is applicable to the \"Remedy\" stage of the threat management lifecycle, meaning it may be applied proactively to prevent future threats."
+        }
+    }, {
+        "value": "Response",
+        "annotation": {
+            "documentation": "This COA is applicable to the \"Response\" stage of the threat management lifecycle, meaning it may be applied as an immediate reaction to an ongoing threat."
+        }
+    }
+]

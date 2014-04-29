@@ -1,0 +1,22 @@
+[{
+        "value": "Internally-Managed",
+        "annotation": {
+            "documentation": "The asset is managed internally."
+        }
+    }, {
+        "value": "Externally-Management",
+        "annotation": {
+            "documentation": "The asset is managed externally."
+        }
+    }, {
+        "value": "Co-Management",
+        "annotation": {
+            "documentation": "The asset is co-managed."
+        }
+    }, {
+        "value": "Unknown",
+        "annotation": {
+            "documentation": "The asset management class is unknown."
+        }
+    }
+]

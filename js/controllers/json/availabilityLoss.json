@@ -1,0 +1,37 @@
+[{
+        "value": "Destruction",
+        "annotation": {
+            "documentation": "The information was destroyed or wiped."
+        }
+    }, {
+        "value": "Loss",
+        "annotation": {
+            "documentation": "Availability to the information was lost."
+        }
+    }, {
+        "value": "Interruption",
+        "annotation": {
+            "documentation": "Availability to the information was interrupted."
+        }
+    }, {
+        "value": "Degradation",
+        "annotation": {
+            "documentation": "Availability to the information was degraded."
+        }
+    }, {
+        "value": "Acceleration",
+        "annotation": {
+            "documentation": "Availability loss type is acceleration."
+        }
+    }, {
+        "value": "Obscuration",
+        "annotation": {
+            "documentation": "Availability to the information is obscured."
+        }
+    }, {
+        "value": "Unknown",
+        "annotation": {
+            "documentation": "The availability loss type is not known."
+        }
+    }
+]

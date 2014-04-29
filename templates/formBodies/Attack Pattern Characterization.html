@@ -1,0 +1,83 @@
+<div class="panel-body" ng-init="$parent.ieObject.ieScope = 'ttp'">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                <label for ="stixTitle"> Title </label>
+                <input type="text" class="form-control" id="stixTitle" ng-model="$parent.stixPackageTitle">
+            </div>
+
+            <div class="form-group">
+                <label for ="stixPackageIntent"> Package Intent </label>
+                <select ng-model="$parent.packageIntent" ng-options="packageIntent.value for packageIntent in packageIntents | orderBy: 'value'" class="form-control" id="stixPackageIntent"></select>
+                <div class="alert alert-info">{{packageIntent.annotation.documentation}}</div>
+            </div>
+
+            <div class="form-group">                                                
+                <label for ="stixUUID"> UUID </label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="stixUUID" ng-model="$parent.UUID">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button" ng-click="createUUID()"> <span class="glyphicon glyphicon-refresh"></span></button>
+                    </span>
+                </div><!-- /input-group -->
+
+
+            </div>
+            <div>
+                <div class="form-group">
+                    <label for ="stixDescription"> Description </label>
+                    <textarea class="form-control" ng-model="$parent.stixDescription" id="stixDescription" rows="5" required></textarea>
+                </div>
+                <div class="form-group">
+
+                    <label for="dtp_input1">Timestamp</label>
+                    <div class="input-group date form_datetime col-md-5" data-date-format="yyyy-mm-ddThh:ii:ssZ" data-link-field="dtp_input1">
+                        <input class="form-control" size="16" type="text" value="">
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+                    </div>
+                    <input type="hidden" id="dtp_input1" value="" /><br/>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="row">
+    <div ng-include="'templates/formUnits/ttp.html'"></div>                                                
+    </div>
+    <div class="row">
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="well well-me well-primary">
+                <form class="form form-inline " role="form">
+                    <div class="form-group">
+                        <select ng-model="$parent.documentStatus" ng-options="documentStatus.value for documentStatus in documentStatuses | orderBy: 'value'" class="form-control"></select>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success btn-sm" ng-click="saveToFile()">
+                            <span class="glyphicon glyphicon-floppy-disk"></span>Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    $('.form_datetime').datetimepicker({
+        format: 'yyyy-mm-ddThh:ii:ssZ',
+        todayBtn: 1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 3,
+        forceParse: 0,
+        showMeridian: 1
+    });
+</script>

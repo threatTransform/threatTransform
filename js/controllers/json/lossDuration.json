@@ -1,0 +1,37 @@
+[{
+        "value": "Permanent",
+        "annotation": {
+            "documentation": "The loss is permanent."
+        }
+    }, {
+        "value": "Weeks",
+        "annotation": {
+            "documentation": "The loss lasted for weeks."
+        }
+    }, {
+        "value": "Days",
+        "annotation": {
+            "documentation": "The loss lasted for days."
+        }
+    }, {
+        "value": "Hours",
+        "annotation": {
+            "documentation": "The loss lasted for hours."
+        }
+    }, {
+        "value": "Minutes",
+        "annotation": {
+            "documentation": "The loss lasted for minutes."
+        }
+    }, {
+        "value": "Seconds",
+        "annotation": {
+            "documentation": "The loss lasted for seconds."
+        }
+    }, {
+        "value": "Unknown",
+        "annotation": {
+            "documentation": "The loss duration is not known."
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[{
+        "value": "Advantage"
+    }, {
+        "value": "Advantage - Economic"
+    }, {
+        "value": "Advantage - Military"
+    }, {
+        "value": "Advantage - Political"
+    }, {
+        "value": "Theft"
+    }, {
+        "value": "Theft - Intellectual Property"
+    }, {
+        "value": "Theft - Credential Theft"
+    }, {
+        "value": "Theft - Identity Theft"
+    }, {
+        "value": "Theft - Theft of Proprietary Information"
+    }, {
+        "value": "Account Takeover"
+    }, {
+        "value": "Brand Damage"
+    }, {
+        "value": "Competitive Advantage"
+    }, {
+        "value": "Degradation of Service"
+    }, {
+        "value": "Denial and Deception"
+    }, {
+        "value": "Destruction"
+    }, {
+        "value": "Disruption"
+    }, {
+        "value": "Embarrassment"
+    }, {
+        "value": "Exposure"
+    }, {
+        "value": "Extortion"
+    }, {
+        "value": "Fraud"
+    }, {
+        "value": "Harassment"
+    }, {
+        "value": "ICS Control"
+    }, {
+        "value": "Traffic Diversion"
+    }, {
+        "value": "Unauthorized Access"
+    }
+]
