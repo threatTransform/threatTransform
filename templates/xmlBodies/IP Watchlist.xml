@@ -23,9 +23,11 @@
         <stix:STIX_Header>
             <stix:Title>{{$parent.stixPackageTitle}}</stix:Title>
             <stix:Package_Intent xsi:type="stixVocabs:PackageIntentVocab-1.0">{{$parent.packageIntent.value}}</stix:Package_Intent>
-            <stixCommon:Time>
-                <cyboxCommon:Produced_Time>{{$parent.creationTimestamp| date:'yyyy-MM-ddTHH:mm:ssZ'}}</cyboxCommon:Produced_Time>
-            </stixCommon:Time>        
+            <stix:Information_Source>
+                <stixCommon:Time>
+                    <cyboxCommon:Produced_Time>{{$parent.creationTimestamp| date:'yyyy-MM-ddTHH:mm:ssZ'}}</cyboxCommon:Produced_Time>
+                </stixCommon:Time>        
+            </stix:Information_Source>        
         </stix:STIX_Header>
         <stix:Indicators>
             <stix:Indicator xsi:type="indicator:IndicatorType" id="{{$parent.branding}}:Indicator-{{$parent.newUUID3}}">
