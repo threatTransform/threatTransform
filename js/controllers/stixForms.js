@@ -337,9 +337,11 @@ function ttFormCntrl($scope, $http, $compile, $filter) {
         header = '<stix:STIX_Header>' +
                 '<stix:Title>' + $scope.stixPackageTitle + '</stix:Title>' +
                 '<stix:Package_Intent xsi:type="stixVocabs:PackageIntentVocab-1.0">' + $scope.packageIntent.value + '</stix:Package_Intent>' +
+                '<stix:Information_Source>' + 
                 '<stixCommon:Time>' +
                 '<cyboxCommon:Produced_Time>' + $filter('date')($scope.creationTimestamp, 'yyyy-MM-ddTHH:mm:ssZ') + '</cyboxCommon:Produced_Time>' +
                 '</stixCommon:Time>' +
+                '</stix:Information_Source>' + 
                 '</stix:STIX_Header>';
         return header;
     };
